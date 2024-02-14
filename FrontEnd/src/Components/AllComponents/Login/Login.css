@@ -1,0 +1,9 @@
+input:focus{
+    border: 0px;
+    outline: none;
+    border-bottom: solid black 2px;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder, input[type="number"]::placeholder, input[type="email"]::placeholder {
+    color: white;
+}

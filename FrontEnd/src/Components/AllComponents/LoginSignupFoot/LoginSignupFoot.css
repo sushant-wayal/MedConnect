@@ -1,0 +1,15 @@
+.footcont::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: 0;
+    height: 2px;
+    transition: width 0.25s ease-out;
+    background-color: black;
+}
+.footcont:hover::before{
+    width: 100%;
+    left: 0;
+    right: auto;
+}
